@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://upe.cs.fiu.edu/wp-content/uploads/sites/3/2019/03/engineering2.png"); 
+  background-color: #cccccc; 
+  background-repeat: no-repeat; 
+  background-size: absolute;
+  
+}
+
+
+#innerdoc{
+    background-color: white;
+   
+  
+}
+
+.pic{
+    width: 50% !important ;
+    height: 50% !important ;
+ 
+}
+
+#About{
+    background-color: skyblue;
+}
+
+#header{
+    background-image: url(../assets/engineering.jpg) ;
+    background-size: cover;
+}   
+
+#goals{
+    background-color: skyblue;
+}
+
+#experience{
+    background-color:skyblue;
+    width: 50%;
+    border: solid white 10px;
+}
+
+#skills{
+    background-color: skyblue;
+    width: 50%;
+    border: solid white 10px;
+}
+
+@media  (orientation:portrait) {
+    p{
+        color: white;
+    
+    }
+    li{
+        color: white;
+    
+    }
+}
